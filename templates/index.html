@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <link rel="stylesheet" href="/static/styles.css">
+  <title>TOURNEY</title>
+</head>
+
+<body>
+  <main id="tournament">
+    <div class="winners">
+      <ul class="round round-1">
+        <li class="spacer">&nbsp;</li>
+        {{#each round1 as |name|}}
+        <li class="game game-item">{{name}}</li>
+        <li class="game game-spacer">&nbsp;</li>
+        {{/each}}
+        <li class="spacer">&nbsp;</li>
+      </ul>
+
+      <ul class="round round-2">
+        <li class="spacer">&nbsp;</li>
+        {{#each round2 as |name|}}
+        <li class="game game-item">{{name}}</li>
+        <li class="game game-spacer">&nbsp;</li>
+        {{/each}}
+      </ul>
+
+      <ul class="round round-3">
+        <li class="spacer">&nbsp;</li>
+        {{#each round3 as |name|}}
+        <li class="game game-item">{{name}}</li>
+        <li class="game game-spacer">&nbsp;</li>
+        {{/each}}
+      </ul>
+
+      <ul class="round round-4">
+        <li class="spacer">&nbsp;</li>
+        {{#each round4 as |name|}}
+        <li class="game game-item">{{name}}</li>
+        <li class="game game-spacer">&nbsp;</li>
+        {{/each}}
+      </ul>
+    </div>
+
+    <div class="losers">
+      <ul class="round round-1">
+        <li class="spacer">&nbsp;</li>
+        {{#each round2 as |name|}}
+        <li class="game game-item">{{name}}</li>
+        <li class="game game-spacer">&nbsp;</li>
+        {{/each}}
+        <li class="spacer">&nbsp;</li>
+      </ul>
+
+      <ul class="round round-2">
+        <li class="spacer">&nbsp;</li>
+        {{#each round2 as |name|}}
+        <li class="game game-item">{{name}}</li>
+        <li class="game game-spacer">&nbsp;</li>
+        {{/each}}
+      </ul>
+
+      <ul class="round round-3">
+        <li class="spacer">&nbsp;</li>
+        {{#each round3 as |name|}}
+        <li class="game game-item">{{name}}</li>
+        <li class="game game-spacer">&nbsp;</li>
+        {{/each}}
+      </ul>
+
+      <ul class="round round-4">
+        <li class="spacer">&nbsp;</li>
+        {{#each round3 as |name|}}
+        <li class="game game-item">{{name}}</li>
+        <li class="game game-spacer">&nbsp;</li>
+        {{/each}}
+        <li class="game game-spacer">&nbsp;</li>
+      </ul>
+
+      <ul class="round round-5">
+        <li class="spacer">&nbsp;</li>
+        {{#each round4 as |name|}}
+        <li class="game game-item">{{name}}</li>
+        <li class="game game-spacer">&nbsp;</li>
+        {{/each}}
+      </ul>
+    </div>
+
+  </main>
+</body>
+
+</html>
